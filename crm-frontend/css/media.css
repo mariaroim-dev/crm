@@ -1,0 +1,74 @@
+@media (max-width: 1000px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .clients__date-time-container {
+    flex-direction: column;
+  }
+
+  .clients__actions-btn-wrapper {
+    flex-direction: column;
+  }
+
+  .clients__table-update-btn {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 728px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 300px;
+  }
+  .header__container {
+    justify-content: center;
+  }
+
+  .header__logo {
+    margin: 0;
+  }
+
+  .header__search-form {
+    display: none;
+  }
+
+  .clients__table-caption {
+    font-size: 18px;
+  }
+
+  .modal__main-container {
+    max-width: 300px;
+    padding: 15px 0 15px 0;
+  }
+
+  .modal__container {
+    padding: 0 15px 0 15px;
+  }
+
+  .modal__contact-wrapper {
+    padding: 0 15px 0 15px;
+  }
+
+  .modal__custom-select {
+    width: 110px;
+  }
+
+  .modal__contacts-input {
+    width: 49%;
+  }
+}
